@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-image: url("../img/hero-image.jpg");
+    height: 550px;
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+    line-height: 0;
+    margin: 40px 0 25px;
+}
+
+.text-center p:nth-child(1) {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+.text-center p:nth-child(2) {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+}
+.text-center p:nth-child(3) {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#form-pemesanan {
+    color: white;
+    background-color: #242e5a;
+    padding: 15px 35px;
+    border-radius: 50px;
+    transform: translateY(-90px);
+}
+
+#form-pemesanan .button {
+    font-size: 25px;
+    border: 2px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    transform: translateY(10px);
+}
+
+.card {
+    border: none;
+}
